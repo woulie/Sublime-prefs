@@ -1,0 +1,21 @@
+[
+{
+       "keys": [
+           "super+e"
+       ],
+       "command": "wrap_as_you_type",
+       "context": [
+           {
+               "operand": false,
+               "operator": "equal",
+               "match_all": true,
+               "key": "setting.is_widget"
+           },
+           {
+               "match_all": true,
+               "key": "emmet_action_enabled.wrap_as_you_type"
+           },
+           { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+       ]
+   }
+]
